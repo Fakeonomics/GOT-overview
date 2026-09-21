@@ -1,9 +1,9 @@
-# GOT — Gain-Only Ternary Transformer
+<div align="center"><h1><code>GOT-overview</code></h1><h3>Gain-only ternary transformer: 97% of weights frozen, only gains train.</h3></div>
+
+Site: https://fakeonomics.github.io/GOT-overview/
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
-
-**Live site:** https://fakeonomics.github.io/GOT-overview/
 
 A ternary transformer where every weight is {-1, 0, +1}. No FP32 inference — just additions and subtractions. Trained end-to-end with latent FP32 weights and Straight-Through Estimator quantization (BitNet b1.58-style).
 
